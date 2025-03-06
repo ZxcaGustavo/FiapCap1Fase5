@@ -12,3 +12,4 @@
   </table>
 
 <br>
+ainda não consegui resolver o problema de falta de audio nos videos mais pretendo resolver até proxima fase
