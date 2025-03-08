@@ -80,14 +80,4 @@ Rede de até 5 Gigabit.
 Escolha a região desejada:
 São Paulo (BR) para atender a restrições legais de armazenamento.
 Virgínia do Norte (EUA) para um custo menor.
-Deploy da Solução:
 
-Suba o código da API para a instância EC2.
-Configure um servidor web (como Flask ou FastAPI) para servir a API.
-Instale as dependências necessárias na instância:
-bash
-Copiar
-Editar
-sudo apt update
-sudo apt install python3-pip
-pip3 install pandas numpy scikit-learn flask
