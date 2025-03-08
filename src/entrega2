@@ -1,1 +1,14 @@
+from google.colab import files
+import pandas as pd
+
+# Fazer o upload do arquivo
+uploaded = files.upload()
+
+# Ler o arquivo CSV para um DataFrame
+file_name = list(uploaded.keys())[0]  # Pega o nome do arquivo enviado
+# Substituindo 'error_bad_lines' por 'on_bad_lines' e definindo como 'skip' para ignorar linhas com erro.
+data = pd.read_csv(file_name, on_bad_lines='skip')
+
+# Exibir as primeiras linhas do DataFrame
+print(data.head())
 
