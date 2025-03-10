@@ -81,3 +81,19 @@ Escolha a região desejada:
 São Paulo (BR) para atender a restrições legais de armazenamento.
 Virgínia do Norte (EUA) para um custo menor.
 
+## escolha:
+
+Algumas legislações e regulamentações, como a LGPD (Lei Geral de Proteção de Dados) no Brasil, podem exigir que dados sensíveis ou críticos sejam armazenados dentro do território nacional. Escolher a região de São Paulo garante conformidade com essas exigências.
+Menor Latência:
+
+Para acessar rapidamente os dados dos sensores, é essencial ter baixa latência. Hospedar a infraestrutura na região de São Paulo, mais próxima dos sensores localizados no Brasil, reduz o tempo de resposta devido à proximidade geográfica.
+Alta Disponibilidade Local:
+
+A AWS oferece recursos robustos de redundância e disponibilidade, mesmo em uma única região, garantindo que os dados estejam acessíveis e seguros dentro do Brasil.
+Custo Razoável:
+
+Embora a região de São Paulo possa ter custos ligeiramente superiores à região da Virgínia do Norte, a escolha é justificada pela necessidade de atender a requisitos legais e operacionais prioritários.
+Escalabilidade Local:
+
+A região de São Paulo também oferece uma gama completa de serviços da AWS, permitindo que o sistema seja dimensionado conforme necessário sem a necessidade de mover dados para outra região.
+
